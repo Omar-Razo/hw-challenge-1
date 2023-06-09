@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d4a627;
 }
 
 .header div {
@@ -59,23 +59,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+.img-float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.img-float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.side-content-benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,17 +86,18 @@ p {
     background-color: #2589bd;
 }
 
-.benefts-section {
+.benefits-section {
     margin-bottom: 32px;
     color: #ffffff;
+    overflow: auto;
 }
 
-.benefts-section h3 {
+.benefits-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefts-section img {
+.benefits-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -109,6 +110,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
 .main-content-section img {
