@@ -171,6 +171,7 @@ a:focus {
     display: inline-block;
     margin-left: 20px;
     float: none;
+    text-align: center;
   }
 }
 
